@@ -477,3 +477,14 @@ img {
     width: 450px;
   }
 }
+/* ===== PROJECT BULLET FIX ===== */
+.project-list {
+  list-style: disc;
+  padding-left: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-list li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
