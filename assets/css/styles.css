@@ -200,13 +200,14 @@ img {
 
 .home__social {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .home__social-icon {
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: var(--second-color);
 }
 
@@ -217,7 +218,8 @@ img {
 /* ===== CV BUTTON ===== */
 
 .home__cv{
-  margin-top:20px;
+  display:inline-block;
+  margin-left:10px;
 }
 
 .home__cv .button{
