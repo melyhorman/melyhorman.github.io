@@ -371,26 +371,59 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color: var(--second-color);
-  color: #fff;
+  background-color: #1e3358; /* navy lebih soft */
+  color: #ffffff;
   text-align: center;
-  font-weight: var(--font-semi);
-  padding: 2rem 0;
+  padding: 3rem 1rem;
+  line-height: 1.7;
 }
+
+/* Nama */
 .footer__title {
-  font-size: 2rem;
-  margin-bottom: var(--mb-4);
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
 }
+
+/* Sub text */
+.footer__role,
+.footer__location,
+.footer__copyright {
+  font-size: 1rem;
+  opacity: 0.9;
+  margin-bottom: 0.3rem;
+}
+
+/* Email */
+.footer a {
+  color: #6ea8ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+/* Social icon */
 .footer__social {
-  margin-bottom: var(--mb-4);
+  margin: 1rem 0;
 }
+
 .footer__icon {
   font-size: 1.5rem;
-  color: #fff;
-  margin: 0 var(--mb-2);
+  color: #ffffff;
+  margin: 0 10px;
 }
+
+.footer__icon:hover {
+  color: #6ea8ff;
+}
+
+/* small text */
 .footer__copy {
-  font-size: var(--smaller-font-size);
+  font-size: 0.9rem;
+  opacity: 0.85;
 }
 
 /* ===== MEDIA QUERIES=====*/
