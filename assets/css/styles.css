@@ -184,38 +184,70 @@ img {
   row-gap: 5rem;
   padding: 4rem 0 5rem;
 }
+
 .home__data {
   align-self: center;
 }
+
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
 }
+
 .home__title-color {
   color: var(--first-color);
 }
+
 .home__social {
   display: flex;
   flex-direction: column;
 }
+
 .home__social-icon {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
   color: var(--second-color);
 }
+
 .home__social-icon:hover {
   color: var(--first-color);
 }
+
+/* ===== CV BUTTON ===== */
+
+.home__cv{
+  margin-top:20px;
+}
+
+.home__cv .button{
+  background-color:#3b6ff5;
+  color:#fff;
+  padding:10px 24px;
+  border-radius:8px;
+  font-weight:600;
+  text-decoration:none;
+  display:inline-block;
+  transition:0.3s;
+}
+
+.home__cv .button:hover{
+  background-color:#2e57d4;
+}
+
+/* ===== HERO IMAGE ===== */
+
 .home__img {
   position: absolute;
   right: 0;
   bottom: 0;
   width: 260px;
 }
+
 .home__blob {
   fill: var(--first-color);
 }
+
 .home__blob-img {
   width: 360px;
 }
